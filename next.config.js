@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   experimental: {
-    serverActions: true,
-    serverComponentsExternalPackages: ["mongoose"],
+    // Установите значения как false для отключения экспериментальных функций
+    serverActions: false,
+    serverComponentsExternalPackages: [],
   },
   eslint: {
     // Warning: This allows production builds to successfully complete even if
